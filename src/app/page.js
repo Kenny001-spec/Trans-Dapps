@@ -1,11 +1,12 @@
 import React from 'react'
-import { Navbar } from '@/components'
+import { Navbar, Welcome } from '@/components'
 
 const page = () => {
   return (
     <div className='min-h-screen'>
       <div className='gradient-bg-welcome'>
          <Navbar />
+         <Welcome />
       </div>
      
     </div>
